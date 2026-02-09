@@ -5,7 +5,7 @@ HOST = "192.168.1.50"
 USER = "webdev"
 PASS = "daw123"
 LOCAL_PATH = r"C:\Users\Alumno\Desktop\ProyectoWeb"
-REMOTE_PATH = "/mi_sitio"
+REMOTE_PATH = "/"
 
 ftp = FTP(HOST)
 ftp.login(USER, PASS)
